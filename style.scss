@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+    
+}
+
+*::selection {
+    display: none;
+    
+    
+}
+
+
+
+html,
+body {
+    height: 100vh;
+    color: white;
+    
+}
+
+body {
+    font-family: 'Lobster', cursive;
+    background-image: url(images/joshua-woroniecki-3mXIZP6_6zY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+.card {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 1px solid rgba(125, 95, 255,1.0);
+    box-shadow: -1px 4px 70px 16px rgba(125, 95, 255,1.0);
+    -webkit-box-shadow: -1px 4px 70px 16px rgba(125, 95, 255,1.0);
+    -moz-box-shadow: -1px 4px 70px 16px rgba(125, 95, 255,1.0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    
+    
+    img {   
+        height: 220px;
+        width: 220px; 
+        margin:20px 0; 
+        border-radius: 50%;
+        opacity: 0.8;
+    }
+    .name {
+        letter-spacing: 4px;
+        margin-bottom: 25px;
+        font-size: 40px;
+        font-weight: bold;
+        color:white ;
+    }
+    span {
+        letter-spacing: 1px;
+        font-size: 25px;        
+        color:white ;
+    }
+    .social {
+        margin-top: 50px;
+        display: block;
+        font-size: 35px;
+        letter-spacing: 10px;
+        a {
+            color: white;
+            i {
+                &:hover {
+                    transform: scale(1.2);
+                }
+                
+            }
+        }
+        
+    }
+
+}
+
